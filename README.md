@@ -33,14 +33,10 @@ C. Ứng viên
 | ------ | ------ |
 | Mô tả | Đăng bài tuyển dụng |
 | Kích hoạt | Người dùng ấn vào nút đăng bài tuyển dụng trên thanh menu |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+| Đầu vào | Tên công ty <br> Tên công việc <br> Địa điểm: thành phố - quận(select2-load về local)<br>Remote | (checkbox) <br> Có cho Part time không ? (radio) <br> Mức lương (slidebar) <br> Ngôn ngữ ( multiple select 2 ) <br> Yêu cầu thêm (text) <br> File JD |
+| Trình tự xử lý |  |
+| Đầu ra | Đúng: Hiển thị trang người dùng và thông báo thành công <br> Sai: Hiển thị trang đăng nhập và thông báo thất bại |
+| Lưu ý | Kiểm tra ô nhập không được để trống bằng Javascript |
 
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
